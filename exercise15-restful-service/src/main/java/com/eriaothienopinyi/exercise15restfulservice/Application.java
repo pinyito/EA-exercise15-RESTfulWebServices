@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Exercise15RestfulServiceApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Exercise15RestfulServiceApplication.class, args);
+
+		SpringApplication.run(Application.class, args);
 	}
 
 }
